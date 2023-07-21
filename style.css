@@ -1,0 +1,72 @@
+/* Reset */  
+body {
+    margin: 0;
+  }
+
+  /* H1 style  */
+   h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+   }
+/* Grid */
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+ /* style the coloumn  */
+  .column {
+    position: relative; 
+    cursor: pointer;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    width: 100%;
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+ 
+  
+  /* style the container of expanding image */
+  .container {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+ 
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  div img{
+      width: 100px;
+  }
+img{
+    width: 500px;
+}
